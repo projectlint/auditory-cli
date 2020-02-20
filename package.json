@@ -5,9 +5,6 @@
   "bin": {
     "projectlint-auditory": "server.js"
   },
-  "scripts": {
-    "test": "jest --coverage --notify"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/projectlint/auditory-cli.git"
@@ -27,14 +24,7 @@
   },
   "homepage": "https://github.com/projectlint/auditory-cli#readme",
   "dependencies": {
-    "@projectlint/cli": "projectlint/cli",
-    "@projectlint/plugin-README": "github:projectlint/plugin-README",
-    "@projectlint/plugin-node.js": "github:projectlint/plugin-Node.js",
-    "@projectlint/plugin-operating-system": "github:projectlint/plugin-Operating-System",
-    "@projectlint/plugin-package.json": "github:projectlint/plugin-package.json"
-  },
-  "devDependencies": {
-    "jest-cli": "^25.1.0",
-    "prettier": "^1.19.1"
+    "@projectlint/auditory-plugins": "github:projectlint/auditory-plugins",
+    "@projectlint/cli": "projectlint/cli"
   }
 }

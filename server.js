@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
+const auditory = require('@projectlint/auditory-plugins')
 const {cli, parseArgs} = require('@projectlint/cli')
-
-const auditory = require('.')
 
 const params = require('./package.json')
 
