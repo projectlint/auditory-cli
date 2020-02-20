@@ -10,7 +10,7 @@ const extraArguments =
 [
   ['--configLevel', {
     choices: ['strict', 'recommeded'],
-    default: 'recommended',
+    defaultValue: 'recommended',
     dest: 'configLevel'
   }],
   ['--strict', {
